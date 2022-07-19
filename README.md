@@ -1,56 +1,55 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Javascript Project - Leaderboard
 
-> Description the project.
-
+> JavaScript project for the Leaderboard list app, using webpack and ES6 features, notably modules.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML/CSS
+- Javascript
+- Linters
+- Visual Studio
+- Git/GitHub
+- GitFlow
+- Webpack
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://gak92.github.io/Leaderboard/dist/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
+Create a repo then clone it and open into Visual Studio Code
 
 ### Setup
 
+- Download and install npm
+- Command line / Git bash
+
 ### Install
 
-### Usage
+- Visual Studio Code
+- `npm install`
+- `npm run build`
+- `npm run start`
 
 ### Run tests
 
+- `npx hint .`
+- `npx stylelint "**/*.scss"`
+- `npx eslint .`
+
 ### Deployment
 
-
+Deploy onto the web using GitHub Pages
 
 ## Authors
 
-👤 **Author1**
+👤 **Ghazanfar Ali**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@gak92](https://github.com/gak92)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ghazanfar-ali-9a4998a/)
 
 ## 🤝 Contributing
 
