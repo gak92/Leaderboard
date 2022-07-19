@@ -6,11 +6,11 @@ module.exports = {
   entry: './src/index.js',
   devtool: 'inline-source-map',
   devServer: {
-    static: './dist'
+    static: './dist',
   },
   plugins: [
     new HtmlWebpackPlugin({
-      'template': './src/index.html',
+      template: './src/index.html',
     }),
   ],
   output: {
