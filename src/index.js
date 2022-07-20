@@ -38,9 +38,7 @@ const addScore = async (userName, userScore) => {
       'Content-type': 'application/json; charset=UTF-8',
     },
   })
-    .then((response) => response.json())
-    .then((json) => {
-    });
+    .then((response) => response.json());
 };
 
 btnSubmit.addEventListener('click', () => {
