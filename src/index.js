@@ -40,7 +40,6 @@ const addScore = async (userName, userScore) => {
   })
     .then((response) => response.json())
     .then((json) => {
-      console.log(json.result);
     });
 };
 
@@ -52,7 +51,7 @@ btnSubmit.addEventListener('click', () => {
   if (userName.value && userScore.value) {
     if (userScore.value.match(regex)) {
       addScore(userName.value, userScore.value);
-    } 
+    }
   }
   userName.value = '';
   userScore.value = '';
