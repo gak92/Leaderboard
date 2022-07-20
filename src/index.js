@@ -16,11 +16,9 @@ const renderScores = (items) => {
 };
 
 const getScores = async () => {
-  await fetch(requestedURL)
-    .then((response) => response.json())
-    .then((json) => {
-      renderScores(json.result);
-    });
+  const response = await fetch(requestedURL);
+  const data = await response.json();
+  renderScores(data.result);
 };
 
 btnRefresh.addEventListener('click', () => {
