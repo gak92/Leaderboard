@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: #fff;
+  background-color: #f5f5dc;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -69,10 +69,11 @@ ul li {
 .section-recent-scores .row2 ul {
   display: flex;
   flex-direction: column;
+  background-color: #e6e6cd;
 }
 
-.section-recent-scores .row2 ul li:nth-child(even) {
-  background-color: #d3d3d3;
+.section-recent-scores .row2 ul li:nth-child(odd) {
+  background-color: #fff;
 }
 
 .section-add-score {
