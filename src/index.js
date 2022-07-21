@@ -25,6 +25,17 @@ btnRefresh.addEventListener('click', () => {
   getScores();
 });
 
+const showMessage = (msg, status) => {
+  const displayMessage = document.querySelector('.message');
+  displayMessage.classList.add(status);
+  displayMessage.innerHTML = msg;
+
+  setTimeout(() => {
+    displayMessage.innerHTML = '';
+    displayMessage.classList.remove(status);
+  }, 2000);
+};
+
 const addScore = async (userName, userScore) => {
   const response = await fetch(requestedURL, {
     method: 'POST',
@@ -36,20 +47,9 @@ const addScore = async (userName, userScore) => {
       'Content-type': 'application/json; charset=UTF-8',
     },
   });
-    
+
   const data = await response.json();
-  showMessage(data.result, "success");
-};
-
-const showMessage = (msg, status) => {
-  const displayMessage = document.querySelector('.message');
-  displayMessage.classList.add(status);
-  displayMessage.innerHTML = msg;
-
-  setTimeout(() => {
-    displayMessage.innerHTML = '';
-    displayMessage.classList.remove(status);
-  },2000);
+  showMessage(data.result, 'success');
 };
 
 btnSubmit.addEventListener('click', () => {
@@ -61,10 +61,10 @@ btnSubmit.addEventListener('click', () => {
     if (userScore.value.match(regex)) {
       addScore(userName.value, userScore.value);
     } else {
-      showMessage("Score should be a number", "error");
+      showMessage('Score should be a number', 'error');
     }
   } else {
-    showMessage("Input fields cannot be empty", "error");
+    showMessage('Input fields cannot be empty', 'error');
   }
   userName.value = '';
   userScore.value = '';
