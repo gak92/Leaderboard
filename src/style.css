@@ -98,3 +98,15 @@ ul li {
 .section-add-score .form .btn-submit {
   align-self: flex-end;
 }
+
+.error {
+  color: white;
+  background-color: #ff0000;
+  padding: 0.5rem;
+}
+
+.success {
+  color: white;
+  background-color: #008000;
+  padding: 0.5rem;
+}
