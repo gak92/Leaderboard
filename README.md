@@ -34,7 +34,7 @@ Create a repo then clone it and open into Visual Studio Code
 - `npm run build`
 - `npm run start`
 
-### Run tests
+### Check for linters error
 
 - `npx hint .`
 - `npx stylelint "**/*.scss"`
