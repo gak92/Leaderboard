@@ -16,7 +16,8 @@
 
 ## Live Demo
 
-[Live Demo Link](https://gak92.github.io/Leaderboard/dist/)
+[Live Demo Link1](https://gak92.github.io/Leaderboard/dist/)
+[Live Demo Link2](https://ghaz-leaderboard.netlify.app/)
 
 ## Getting Started
 
